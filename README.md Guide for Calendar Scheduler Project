@@ -1,0 +1,82 @@
+Calendar Scheduler
+A simple Java console application for scheduling, updating, and managing events with time zones support using ZonedDateTime.
+
+Prerequisites
+Java Development Kit (JDK) 11 or higher installed
+
+An IDE or editor supporting Java (e.g., IntelliJ IDEA, Eclipse, VS Code with Java extensions)
+
+Git installed (for cloning and version control)
+
+Setup Instructions
+Clone the repository
+
+text
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Open the project in your Java IDE
+
+Import as a Java project or Maven/Gradle project if applicable.
+
+Ensure your IDE is configured to use JDK 11 or higher.
+
+Build and compile the project
+
+Compile the .java files (if needed) or build using your IDE.
+
+Run the program
+
+Run CalenderScheduler.java which contains the main method.
+
+The app presents a menu for adding, listing, updating, and deleting events.
+
+Project Structure Overview
+CalenderScheduler.java : Main entry point of the application with the user interaction loop.
+
+Scheduler.java : Manages the collection of Event objects and provides add, update, delete, and query functionality.
+
+Event.java : Represents an event with a name and ZonedDateTime for date/time with timezone information.
+
+How to Use
+On running the program, a menu will appear:
+
+Add events with name, date/time (format: yyyy-MM-dd HH:mm), and time zone (e.g., America/New_York).
+
+List all or upcoming events.
+
+Update or delete events by name.
+
+Display the next 7 days for scheduling context.
+
+Exit the program.
+
+Date and time inputs must match the format exactly to avoid errors.
+
+Contributing
+If you want to contribute:
+
+Fork the repository.
+
+Create a new branch for your feature or fix: git checkout -b feature/your-feature-name.
+
+Commit your changes using meaningful commit messages.
+
+Push your branch and open a Pull Request.
+
+Follow coding style and ensure your changes do not break existing functionality.
+
+License
+Include your project license here (e.g., MIT License, GPL, etc.).
+
+Contact
+For questions or issues, reach out via repository issues or contact the maintainer. Email: preshstoner@gmail.com
+
+This guide will ensure collaborators understand how to set up their environment, run the project, and contribute effectively.
+
+If needed, you can also consider adding:
+
+Sample input/output examples.
+
+How to run tests (if tests exist).
+
+Notes on dependency management (if applicable).
