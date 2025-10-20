@@ -12,7 +12,7 @@ Setup Instructions
 Clone the repository
 
 text
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/preshstoner/DateTimeProject.git
 cd your-repo-name
 Open the project in your Java IDE
 
